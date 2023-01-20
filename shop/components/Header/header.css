@@ -1,0 +1,17 @@
+.header-container{
+    display: flex;
+    height: 50px;
+    padding: var(--spacing-small);
+    background-color: var(--color-medium);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.header-counter{
+    margin-left: auto;
+    padding-right: var(--spacing-small);
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(175, 0, 0);
+}
