@@ -10,7 +10,7 @@ spinnerPage.render();
 
 let CATALOG = [];
 
-fetch('https://gist.githubusercontent.com/rinatdev/171f48e20553cecf73e49106b4f14c7d/raw/04cc4f909efefe7dee34803d2febf3f499b0752f/shoes.json')
+fetch('https://gist.githubusercontent.com/rinatdev/171f48e20553cecf73e49106b4f14c7d/raw/4465f521c03b1285a568056519c4cb00699fb179/shoes.json')
     .then(res => res.json())
     .then(body => {
         CATALOG = body;

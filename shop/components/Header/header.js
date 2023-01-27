@@ -2,6 +2,7 @@ class Header{
 
     handleOpenShoppingPage(){
         shoppingPage.render();
+        ROOT_DETAILS.innerHTML = ``;
     }
 
     render(count){
